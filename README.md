@@ -1,5 +1,4 @@
 <h1 align='center'> Huffman Text File Zipper</h1>
-<h3 align='center'> Yet another file compressor/decompressor, using a C++ huffman-coding algorithm implementation.</h3>
 <img center='align' src='http://4.bp.blogspot.com/-dm7N1haRYeA/UzPmZ67ZyrI/AAAAAAAAAGo/pTBUre_72aY/s1600/Compress_PDF.png'/>
 Text files can be compressed to make them smaller and faster to send, and unzipping files on devices has a low overhead. The process of encoding involves changing the representation of a file so that the (binary) compressed output takes less space to store and takes less time to transmit while retaining the ability to reconstruct the original file exactly from its compressed representation. Text files can be of various file types, such as HTML, JavaScript, CSS, .txt, and so on. Text compression is required because uncompressed data can take up a lot of space, which is inconvenient for device storage and file sharing.
 This project is based on Huffman Coding, a lossless, bottom-up compression algorithm. It can compress and decompress any text files.
