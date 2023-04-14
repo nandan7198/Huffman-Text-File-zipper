@@ -1,3 +1,6 @@
+//
+//Created by Nandan S
+//
 #include "huffman.hpp"
 
 void huffman::createArr() {
